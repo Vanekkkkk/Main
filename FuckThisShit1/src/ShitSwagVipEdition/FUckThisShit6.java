@@ -11,7 +11,8 @@ public class FUckThisShit6 {
             prepresum = presum;
             presum = sum;
             System.out.println(sum);
-            System.out.println("That's all, BITCH!");
+
         }
+        System.out.println("That's all, BITCH!");
     }
 }

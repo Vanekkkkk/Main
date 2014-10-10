@@ -14,8 +14,10 @@ public class FUckThisShit2 {
         if(scan.hasNextInt()){
             b = scan.nextInt();
         } else System.out.println("Wrong, BITCH!");
-         int c = random.nextInt(b - a) + a;
-        System.out.println("Your number of [a;b] is " + c);
-        System.out.println("WHERE IS MY MONEY, BITCH?!");
+        if(a < b){
+            int c = random.nextInt(b - a) + a;
+            System.out.println("Your number of [a;b] is " + c);
+            System.out.println("WHERE IS MY MONEY, BITCH?!");
+        } else System.out.println("WHAT THE FUCK???");
     }
 }
